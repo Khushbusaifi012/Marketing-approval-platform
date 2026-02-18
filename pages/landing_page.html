@@ -1065,7 +1065,7 @@
               formData.phone = "'" + formData.phone;
 
               try {
-              const res = await fetch('https://script.google.com/macros/s/AKfycbzpLkqi-Rk6qOfgLJBEq1jOSILrd2qsWH6RSA1yF0tkkgAidXO8Ncf1CrCw-ZM4qCGE/exec', {
+              const res = await fetch( {
               method: 'POST',
               body: JSON.stringify(formData)
               });
